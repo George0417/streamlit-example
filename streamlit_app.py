@@ -15,12 +15,6 @@ forums](https://discuss.streamlit.io).
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
 
-st.header('st.choice')
-
-if st.button('Say hello touch it'):
-     st.write('Why hello there')
-else:
-     st.write('Goodbye')
 
 
 
@@ -50,3 +44,10 @@ with st.echo(code_location='below'):
 
 
 st.write('Hello world!')
+st.header('st.choice')
+
+if st.button('Say hello touch it'):
+     st.write('Why hello there')
+else:
+     st.write('Goodbye')
+
