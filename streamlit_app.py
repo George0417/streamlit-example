@@ -33,7 +33,7 @@ st.markdown('Hello wrold')
 
 st.write(1234)
 
-df=DATAFRAME({'first_column':[1,2,3],'second_colum':[4,5,6]})
+df=Dataframe({'first_column':[1,2,3],'second_colum':[4,5,6]})
 st.write(df)
 
 st.write('below is a dataframe',df,'Above is a dataframe')
