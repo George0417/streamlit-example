@@ -38,7 +38,7 @@ st.write(df)
 
 st.write('below is a dataframe',df,'Above is a dataframe')
 
-df2=pd.DataFrame(np.random.randn(200,3),column=['a','b','c'])
+df2=pd.DataFrame(np.random.randn(200,3),columns=['a','b','c'])
 c=alt.chart(df2).mark_circle().encode(
      x='a', y='b', size='c', color='c', tooltip=['a', 'b', 'c'])
 st.write(c)
